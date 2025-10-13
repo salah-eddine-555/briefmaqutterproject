@@ -1,0 +1,90 @@
+
+/* la partie de declaration des varibales globale en ce fichier css pour reutiliser */
+:root{
+    --primary-color: #00FFFF;
+    --second-color: #00DCFF;
+    --third-color: #00CEFF;
+    --for-color: #00C7FF;
+    --last-color: #0099FF;
+    --bg-Color: #0A0E28;
+    --gradient1: linear-gradient(to right ,var(--primary-color)0%, var(--second-color)30%, var(--third-color)35%, var(--for-color)55%, var(--last-color)100%);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-Color);
+}
+
+
+
+/* le style css pour l partie header  (navbar) */
+header{
+    width: 100vw;
+    height: 11vh;
+    background-color: var(--bg-Color);
+      
+}
+
+header>nav {
+  display: flex;
+  width: 95vw;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header>nav h3{
+    color: white;
+    margin-left: 40px;
+    font-weight: bold;
+   
+    
+    
+}
+
+header>nav span{
+    color: var(--primary-color);
+}
+
+
+header>nav>.links a{
+    text-decoration: none;
+    color: white;
+    font-size:14px;
+    font-weight:40;
+    margin-left: 20px; 
+    transition: 0.9s;
+}
+
+header>nav>.links a:hover{
+    color: var(--primary-color);
+    font-size: 18px;
+
+}
+
+header>nav>.links .btn{
+   padding: 12px;
+   border-radius: 8px;
+   background: var(--gradient1);
+   color: black;
+   font-weight:530;
+   transition: 0.9s;
+   
+}
+
+header>nav>.links .btn:hover{
+    color: black;
+}
+
+/* css pour le premier section  au site  (Trouve ton equpe ....) */
+.section1{
+    display: flex;
+    width: 100vw;
+    height: 89vh;
+    color: white;
+    text-align: center;
+    justify-items: center;
+
+    background: radial-gradient(circle, #19374F 15%, #202344 57%);
+}
