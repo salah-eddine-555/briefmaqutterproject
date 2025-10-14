@@ -22,27 +22,73 @@
         </nav>
     </header>
 
-    
-   <!-- la section principale du projet  -->
-    <section class="section1">
-        <div class="content1">
-            <h1>
-                Trouve ton équipe.<br>
-                Domine le jeu.
-            </h1>
+    <!-- la structur de page joeurs (formualaire de recherche + cards pour le afficher ) -->
+     <section class="section-recherche">
+        <h2>recherche ton joeur idéale</h2>
 
-            <p>
-                Rejoins plus grande communauté E-sport et connecte-toi avec des joueurs de ton
-                niveau sur Valorant,LoL,CS2 et plus encore.
-            </p>
-
-            <div class="btns">
-                <a class="link1" href="">Commencer maintenant</a>
-                <a class="link2" href="">En savoir plus</a>
+        <form>
+            <div>
+                <label for="joeur">Joeur :</label>
+                <input type="text" id="joeur" placeholder="nom du joeur">
             </div>
 
+             <div>
+                <label for="niveau">Niveau :</label>
+                <select id="niveau">
+                    <option value="#" selected>Tous les niveau</option>
+                    <option value="#">niveau 1</option>
+                    <option value="#">niveau 2</option>
+                    <option value="#">niveau 3</option>
+                </select>
+            </div>
+
+             <div>
+                <label for="role">Role :</label>
+                <select id="role">
+                    <option value="#" selected>Tous les roles</option>
+                    <option value="#">role 1</option>
+                    <option value="#">role 2</option>
+                    <option value="#">role 3</option>
+                </select>
+            </div>
+            
+            <div class="btn-recherche">
+                <a href="#">recherche</a>
+            </div>
+        </form>
+       
+     </section>
+
+     <!-- section du liste des joeurs disponible -->
+
+     <section class="section-list-joeurs">
+        <h1>Joeurs disponibles</h1>
+        <hr>
+
+        <div class="cards-joeurs">
+            <div class="card">
+                <div class="card-header">
+                    <img  style="width: 100px;" src="./img1.jpg" alt="">
+                </div>
+
+                <div class="card-body">
+                    <h3>Xfawzer</h3>
+                    <button>joeur</button>
+                    <h5>Role<span> </span>Role</h5>
+                    <p>Main Clove.Omen, cherche equipe competitive
+                    pour ranked push
+                    </p>
+                </div>
+
+                <div class="card-footer">
+                    <a href="#">Voir profil</a>
+                </div>
+            </div>
         </div>
-    </section>
+     </section>
+
+    
+
 
 
 <!--  la structure footer  -->
