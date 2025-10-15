@@ -77,7 +77,7 @@ header>nav>.links .btn:hover{
     color: black;
 }
 
-/* css pour le premier section  au site  (Trouve ton equpe ....) */
+/* css pour le premier section  au site  (Trouve ton joeur ....) */
 .section1{
     display: flex;
     width: 100vw;
@@ -216,7 +216,7 @@ footer>div>.div1 p{
     color: white;
     padding-top: 20px ;
     text-align: center;
-    background-image: linear-gradient(to right, #1A1F3A 0%, #12172D 54%, #10152A 81%, #0F1428 100%);
+    background: linear-gradient(to right, #1A1F3A 0%, #12172D 54%, #10152A 81%, #0F1428 100%);
     width: 90%;
     height: 22vh;
     border-radius: 12px;
@@ -285,6 +285,7 @@ form>.btn-recherche a{
     color: white;
     text-align: center;
     margin-top: 120px;
+    margin-bottom: 60px;
 
 }
 .section-list-joeurs hr{
@@ -294,4 +295,205 @@ form>.btn-recherche a{
     border: none;
     background: linear-gradient(to right,var(--primary-color)0%, #5BA4FF 36%, #8B74FF 54%, #B54AFF 71%, #DF20FF 88%, #FF00FF 100%);
 }
+
+.section-list-joeurs> .cards-joeurs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    width: 90%;
+    height: auto;
+    justify-self: center;
+    justify-content: space-evenly;
+    
+}
+
+.section-list-joeurs> .cards-joeurs>.card{
+    border: 1px solid #0F4659;
+    border-radius: 10px;
+    width: 365.34px;
+    height: 399px;
+    margin-top: 18px;
+    background: linear-gradient(to right, #1A1F3A 0%, #12172D 54%, #10152A 81%, #0F1428 100%);
+}
+
+.section-list-joeurs> .cards-joeurs>.card .card-header{
+    margin-top: 30px;
+}
+
+.section-list-joeurs> .cards-joeurs>.card .card-header img{
+    border-radius: 50px;
+    border: 2px solid #00FFE7;
+    box-shadow: 1px 0px 5px 1px var(--primary-color);
+
+}
+
+.card .card-body h3{
+    font-size: 18.9px;
+    font-weight: bold;
+}
+
+.card .card-body button{
+    padding: 5px 65px;
+    font-size: large;
+    border: 1px solid var(--primary-color);
+    box-shadow: 1px 1px 9px   1px var(--primary-color);
+    border-radius: 13px;
+    color: #0096FF;
+    background: #0F3159;
+}
+
+.card .card-body h5{
+    word-spacing : 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 18px;
+}
+
+.card .card-body p{
+    font-size: 14px;
+    font-weight: 200;
+    color: #B0B0B0;
+}
+
+.card .card-footer{
+    margin-top: 27px;
+}
+
+
+.card .card-footer a{
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 60px;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    background: var(--gradient1);
+   
+}
+
+/* css pour la page de comment ca marche */
+
+.about hr{
+     width: 100px;
+    height: 3px;
+    border-radius: 6px;
+    border: none;
+    background: linear-gradient(to right,var(--primary-color)0%, #5BA4FF 36%, #8B74FF 54%, #B54AFF 71%, #DF20FF 88%, #FF00FF 100%);
+}
+
+.about{
+    color: white;
+    justify-self: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+section> .cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 90vw;
+    height: auto;
+    justify-content: space-evenly;
+}
+section> .cards .card{
+    justify-content: space-evenly;
+    background: linear-gradient(to right, #1A1F3A 0%, #12172D 54%, #10152A 81%, #0F1428 100%);
+    border: 1px solid #0F4659;
+    border-radius: 16px;
+    width: 300px;
+    height: 280px;
+}
+
+
+section> .cards .card .card-header i{
+    margin-top: 30px;
+    font-size: x-large;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px 8px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #0F4659 10%,  #0a050a 100%);
+}
+
+section> .cards .card .card-body h4{
+    font-size: 23px;
+}
+section> .cards .card .card-body p{
+    line-height: 25px;
+    word-spacing: pre;
+    font-size: 13px;
+    font-weight: 200;
+    color: #B0B0B0;
+}
+
+/* css pour la page communaute  */
+
+.card-chiffres{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-chiffres .chiffre1{
+    border: 2px solid #0F495D;
+    border-radius: 1rem;
+    width: 260px;
+    height: 169px;
+    background: linear-gradient(to right, #1A1F3A 0%, #12172D 54%, #10152A 81%, #0F1428 100%);
+
+    
+}
+
+.card-chiffres .chiffre1 h2{
+    margin-top: 60px;
+    font-size: xx-large;
+    background: linear-gradient(to right, var(--primary-color)0%, #35CAFF 21%, #6996FF 41%, #A758FF 65%, #CE31FF 81%, #FF00FF 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.about>.titre1{
+    margin-top: 100px;
+}
+
+.card-chiffres .chiffre1 p{
+    color: #B0B0B0;
+    font-size: 17;
+    font-weight: bold;
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    width: 90vw;
+    justify-content: center;
+    gap: 50px;
+   
+}
+
+.articles div {
+    border: 2px solid #105769;
+    border-radius: 1rem;
+    width: 365px;
+    height: 257px;
+    background: linear-gradient(to right, #1A1F3A 0%, #12172D 54%, #10152A 81%, #0F1428 100%);
+   
+}
+
+.articles div .contenue p{
+    margin-top: 35px;
+    font-size: 13;
+    line-height: 30px;
+    font-style: italic;
+    color: #E0E0E0;
+}
+
+
+
+
 
