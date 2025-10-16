@@ -473,6 +473,7 @@ section> .cards .card .card-body p{
     width: 90vw;
     justify-content: center;
     gap: 50px;
+    
    
 }
 
@@ -482,6 +483,7 @@ section> .cards .card .card-body p{
     width: 365px;
     height: 257px;
     background: linear-gradient(to right, #1A1F3A 0%, #12172D 54%, #10152A 81%, #0F1428 100%);
+    
    
 }
 
@@ -491,7 +493,257 @@ section> .cards .card .card-body p{
     line-height: 30px;
     font-style: italic;
     color: #E0E0E0;
+    
+    
+  
 }
+
+.articles> div .contenue p span{
+    display: block;
+    position: relative;
+    font-size: 18px;
+    color: var(--primary-color);
+    font-weight: bold;
+    padding-top: 10px;
+    left: -100px;
+}
+
+.articles>div>.contenue .end-line{
+    display: block;
+    color: #888888;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 29px;
+}
+
+/*  css pour la page profile d'un joeur  */
+.section-profil {
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+}
+
+.section-profil hr{
+    width: 100px;
+    height: 3px;
+    border-radius: 6px;
+    border: none;
+    background: linear-gradient(to right,var(--primary-color)0%, #5BA4FF 36%, #8B74FF 54%, #B54AFF 71%, #DF20FF 88%, #FF00FF 100%);
+}
+
+.section-profil h1{
+    color: 39px;
+    text-align: center;
+}
+
+.section-profil .cards{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    gap: 20px;
+    
+    
+   
+}
+
+.cards> .first-card{
+     border: 1px solid #105769;
+    border-radius: 2rem;
+    background: linear-gradient(to right, #1A1F3A 0%, #12172D 54%, #10152A 81%, #0F1428 100%);
+    
+}
+
+
+.cards> .seconde-card{
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #105769;
+    border-radius: 2rem;
+    background: linear-gradient(to right, #1A1F3A 0%, #12172D 54%, #10152A 81%, #0F1428 100%);
+
+}
+
+.cards> .seconde-card div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    
+}
+
+.cards> .seconde-card div p{
+    font-size: larger;
+    align-self: start;
+}
+
+
+
+.cards> .first-card> .card-header h2{
+    font-size: 30px;
+
+}
+.cards> .first-card> .card-body img{
+    width: 400px;
+    height: 200px;
+    border-radius: 50px;
+    border: none;
+}
+
+.section-profil .btn{
+    margin-top: 80px;
+    transition: 0.9s;
+}
+.section-profil .btn a{
+    text-decoration: none;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 14px;
+    padding: 17px 80px;
+    font-size: x-large;
+    
+  
+}
+.section-profil .btn:hover{
+    transform: translateY(-10px);
+
+}
+
+/* css pour la page de creation d'une annonce  */
+
+.annonce-section {
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.annonce-section hr{
+    width: 100px;
+    height: 3px;
+    border-radius: 6px;
+    border: none;
+    background: linear-gradient(to right,var(--primary-color)0%, #5BA4FF 36%, #8B74FF 54%, #B54AFF 71%, #DF20FF 88%, #FF00FF 100%);
+}
+
+.annonce-section> .form-search{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 20%;
+    left: 21%;
+    width: 739px;
+    height: 260px;
+    border: 1px solid var(--primary-color);
+    margin-top: 60px;
+    border: 1px solid #105769;
+    border-radius: 2rem;
+    background: linear-gradient(to right, #1A1F3A 0%, #12172D 54%, #10152A 81%, #0F1428 100%);
+}
+
+.form-search .form{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-search .form label{
+    display: block;
+    position: relative;
+    justify-self: start;
+    font-size: 13px;
+    color: var(--primary-color);
+}
+
+.form-search .form  input{
+    margin-top: 10px;
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.form-search .form  input::placeholder{
+    color: #929090;
+    font-size: 13px;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+}
+
+.form-search .form textarea {
+    margin-top: 4px;
+    background-color: #0B0F28;
+    width: 300px;
+    height: 60px;
+    border-radius: 12px;
+    border: 1px solid #0c3c50;
+}
+
+.form-search .form textarea::placeholder{
+    color: #929090;
+    font-size: 14px;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    
+}
+
+.annonce-item {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    width: 650px;
+    height: 250px;
+    justify-self: center;
+    border: 1px solid #105769;
+    border-radius: 2rem;
+    background: linear-gradient(to right, #1A1F3A 0%, #12172D 54%, #10152A 81%, #0F1428 100%);
+}
+
+.annonce-item h3{
+    font-size: 23px;
+    margin-top: 35px;
+}
+
+.annonce-item .text {
+    width: 300px;
+    justify-self: center;
+    
+}
+.annonce-item .text p{
+    line-height: 20px;
+    font-size:  14px;
+    font-style: italic;
+    color: #E0E0E0;
+}
+
+.annonce-item  a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    border: 1px dotted var(--primary-color);
+    margin-top: 40px;
+    justify-self: start;
+    margin-left: 40px;
+    padding: 9px 14px;
+    border-radius: 8px;
+    transition: 0.9s;
+ 
+}
+.annonce-item  a:hover{
+    transform: translateY(-10px);
+    color: #0096FF;
+
+}
+
+
+
+
+
 
 
 
